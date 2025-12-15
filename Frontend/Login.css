@@ -32,18 +32,20 @@ body{
 }
 
 .box{
-    height: 400px;
+    height: 420px;
     width: 500px;
-    background: linear-gradient(to bottom, rgb(10, 10, 93) , black );
+    background: linear-gradient(to bottom, rgb(112, 0, 164) , black );
     background-size:cover;
     border-radius: 50px;
     padding: 20px 40px;
+    display: flex;
+    justify-content: center;
 }
 
 h1{
     text-align: center;
     color: white;
-    font-style:Sans-Serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 30px 40px 20px 40px;
     size: 50px;
 }
@@ -51,6 +53,7 @@ h1{
 .detail{
     color: white;
     margin: 10px 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 label{
@@ -78,19 +81,35 @@ input:hover {
    padding-top: 10px;
 }
 
+.new{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 17px;
+    color: azure;
+}
+
+a{
+    color: rgb(198, 8, 198);
+}
+
+a:hover{
+    color: rgb(229, 255, 0);
+}
+
 button{
     height: 40px;
     width: 50%;
     color: whitesmoke;
     font-size: 20px;
     font-weight: 700;
+    font-family: cursive;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 15px;
     border-radius: 50px;
     border: none;
     background-color: rgb(32, 0, 242);
     background-image: radial-gradient(circle at center, rgb(5, 1, 255), rgb(255, 9, 177));
-    animation: move-gradient 0.8s alternate infinite;
+    animation: move-gradient 0.8s ease-in-out alternate infinite;
     background-size: 300%  300%;
     transition: all 0.3s ease;
     cursor: pointer;
